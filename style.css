@@ -1,0 +1,21 @@
+button{
+    font-size: 20px !important;
+}
+.b1:hover{
+    background-color: darkred;
+}
+.b2:hover{
+    background-color: rgb(8, 38, 48);
+}
+canvas{
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+@keyframes color{
+    from{box-shadow: 1px 1px 40px rgb(30, 111, 126);}
+    to{box-shadow: 1px 1px 40px rgb(185, 23, 23);}
+}
+body{
+background-size: cover;
+}
